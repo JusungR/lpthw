@@ -1,0 +1,82 @@
+[33mcommit 1aeab5442cb1656b15ba913a430eb5c066982d76[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Ryuu <yhwsr92@gmail.com>
+Date:   Sun Mar 17 15:42:18 2019 +0900
+
+    Signed-off-by: Ryuu <yhwsr92@gmail.com>
+
+[1mdiff --git a/ex1.py b/ex01.py[m
+[1msimilarity index 100%[m
+[1mrename from ex1.py[m
+[1mrename to ex01.py[m
+[1mdiff --git a/ex2.py b/ex02.py[m
+[1msimilarity index 100%[m
+[1mrename from ex2.py[m
+[1mrename to ex02.py[m
+[1mdiff --git a/ex3.py b/ex03.py[m
+[1msimilarity index 100%[m
+[1mrename from ex3.py[m
+[1mrename to ex03.py[m
+[1mdiff --git a/ex4.py b/ex04.py[m
+[1msimilarity index 100%[m
+[1mrename from ex4.py[m
+[1mrename to ex04.py[m
+[1mdiff --git a/ex05.py b/ex05.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..eeb672b[m
+[1m--- /dev/null[m
+[1m+++ b/ex05.py[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32mmy_name = "zed A. shaw"[m
+[32m+[m[32mmy_Age = "35" # Not a lie[m
+[32m+[m[32mmy_Height ="74" #inchs[m
+[32m+[m[32mmy_weight = "82" #kg[m
+[32m+[m[32mmy_eyes = "Blue"[m
+[32m+[m[32mmy_teeth = "White"[m
+[32m+[m[32mmy_hair = "Brown"[m
+[32m+[m
+[32m+[m[32mprint(f"My name is {my_name}.")[m
+[32m+[m[32mprint(f"I'm {my_Age} years-old.")[m
+[32m+[m[32mprint(f"I'm {my_Height} inchs tall.")[m
+[32m+[m[32mprint(f"I'm {my_weight} kg.")[m
+[32m+[m[32mprint(f"Actually, that's not too heavy.")[m
+[32m+[m[32mprint(f"I'm got {my_eyes} eyes and {my_hair} hair.")[m
+[1mdiff --git a/ex06.py b/ex06.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8d4ebb4[m
+[1m--- /dev/null[m
+[1m+++ b/ex06.py[m
+[36m@@ -0,0 +1,25 @@[m
+[32m+[m[32mtype_of_people = 10[m
+[32m+[m
+[32m+[m[32mx = f"There are {type_of_people} type of people in the world."[m
+[32m+[m
+[32m+[m[32mbinary = "Binary"[m
+[32m+[m[32mdo_not = "don't"[m
+[32m+[m
+[32m+[m[32my = f"Those who know {binary} and those who {do_not}."[m
+[32m+[m
+[32m+[m[32mprint(x)[m
+[32m+[m[32mprint(y)[m
+[32m+[m
+[32m+[m
+[32m+[m[32mprint(f"I said : {x}")[m
+[32m+[m[32mprint(f"I also said : ''{y}''")[m
+[32m+[m
+[32m+[m[32mhilarious = False[m
+[32m+[m[32mjoke_evlauation = "Is it that joke so funny?! {}"[m
+[32m+[m
+[32m+[m[32mprint(joke_evlauation.format(hilarious))[m
+[32m+[m
+[32m+[m[32mw = "This is left side of..."[m
+[32m+[m[32me = "a string with a right side"[m
+[32m+[m
+[32m+[m[32mprint(w+e)[m
+[1mdiff --git a/install.py b/install.py[m
+[1mindex 59edc7e..679a6b6 100644[m
+[1m--- a/install.py[m
+[1m+++ b/install.py[m
+[36m@@ -1,3 +1,4 @@[m
+[32m+[m[32mimport tensorflow[m
+ word = "Hello World"[m
+ print(word)[m
+ print("안'그랬으면'좋겠네")[m
